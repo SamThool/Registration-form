@@ -1,0 +1,55 @@
+{{>headers}}
+{{>navbar}}
+<form action="/register" method="POST">
+  <div class="m-auto w-75">
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">First Name</span>
+      <input type="text" class="form-control" name="firstname" placeholder="ramdas" aria-label="Username"
+        aria-describedby="basic-addon1" />
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">Last Name</span>
+      <input type="text" class="form-control" name="lastname" placeholder="shamdas" aria-label="Username"
+        aria-describedby="basic-addon1" />
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon2">Email</span>
+      <input type="email" class="form-control" name="email" placeholder="ramdas69@example.com" aria-label="Email is Required"
+        aria-describedby="basic-addon2" />
+    </div>
+    <div class="form-group">
+      <div class="maxl">
+        <div class="input-group mb-3">
+          <input type="radio" name="gender" id="male" value="male">
+          <label for="">Male</label>
+          <input type="radio" name="gender" id="female" value="female">
+          <label for="female">Female</label>
+        </div>
+      </div>
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">Your Phone</span>
+      <input type="tel" class="form-control" placeholder="123456789" aria-label="Username"
+        aria-describedby="basic-addon1" name="phone"/>
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">Your Phone</span>
+      <input type="number" class="form-control" name="age" placeholder="18" aria-label="Username"
+        aria-describedby="basic-addon1" />
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon2">Password</span>
+      <input type="password" class="form-control" name="password" placeholder="*************" aria-label="Email is Required"
+        aria-describedby="basic-addon2" />
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon2">Confirm Password</span>
+      <input type="password" class="form-control" name="confirmpassword" placeholder="*************" aria-label="Email is Required"
+        aria-describedby="basic-addon2" />
+    </div>
+    <div class=" m-auto">
+     <input type="submit" class="submitbtn" value="registerbtn">
+    </div>
+  </div>
+</form>
